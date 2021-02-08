@@ -1,0 +1,30 @@
+<!-- Crear tabla-->
+    <table>
+        <tr> <!-- FILA-->
+            <td> Elemento 1</td> <!-- COLUMNA-->
+        </tr>
+        <tr> <!-- FILA-->
+            <td> Elemento 1</td> <!-- COLUMNA-->
+        </tr>
+        <tr> <!-- FILA-->
+            <td> Elemento 1</td> <!-- COLUMNA-->
+        </tr>
+    </table>
+
+<!--Formularios-->
+    <form action="datos.php" method="POST"> <!--El method puede ser GET tmb el action es para procesar los datos-->
+        <input type="text">
+        <input type="text" placeholder="Escribe tu nombre" maxlength="3" name="nombre"><!--el maxlength es la cantidad de caracteres que permitimos que escriban, el name sirve para indentificar todo ese input por el nombre que se le da-->
+        <input type="password"> <!--Para que no se vea la contraseña-->
+        <input type="email" name="" id=""> <!--Sirve para comprobar que un correo sera correcto-->
+        <input type="checkbox" name="" id=""> <!--Sirve para agregar una casilla para poner un tick-->
+        <!--Si no queremos que pueda marcar varias casillas a la vez usamos:-->
+        <input type="radio" name="" id="">
+        <input type="button" value="Enviar">
+        <input type="submit"> <!--Envia los datos dependiendo los atributos que pusimos en el form-->
+
+        <select name="" id=""> <!-- Sirve para hacer listas desplegables-->
+            <option value="Argentina">Argentina</option>
+            <option value="Mexico">Mexico</option>
+        </select>
+    </form>

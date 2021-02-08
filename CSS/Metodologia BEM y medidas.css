@@ -1,0 +1,23 @@
+Para evitar problemas de especificidad, se ocupa esta metodologia para llamar a las clases: 
+    nombre-contenedor__tipo-elemento--cualquier palabra para diferenciar si hay varios y se necesita.
+Si tuviera por ejemplo un h2 dentro de un p, se pone asi: 
+    nombre-contenedor__p-h2--cualquier palabra para diferenciar si hay varios y se necesita.
+    Los guiones bajos solo van POR bloque.
+
+    Medidas fijas, px, cm, mm pt. : font-size: 20px; 
+
+    Medidas relativas:(responsive design, adapta dependiendo el dispositivo):
+        h2{
+            font-size: 5em;
+        }
+        Por defecto, un em son 16px. ¨Puede cambiar dependiendo el tamaño que le doy a la caja contenedora, si son  20px, 1 em van a ser 20px.
+    
+    Otra medida es el vw o vh:
+    h2{
+        font-size: 25px; 
+        background-color: #;
+        width: 100vw; (100 es el ancho total de la pagina, 50 es la mitad)
+        height: 100vh; (lo mismo que el de arriba)
+    }
+        
+

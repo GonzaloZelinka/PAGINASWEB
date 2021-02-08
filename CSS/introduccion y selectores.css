@@ -1,0 +1,49 @@
+/* que es una regla css?*/
+    body { 
+        background: #000000;
+        color: #ffffff;/*TIPOGRAFIA*/
+        
+    }
+    /*es todo el conjunto de elementos que estaremos usando para darle forma a un elemento*/
+    /* en donde esta body es el selector, es donde ser referencia a que parte del documento se quiere cambiar, body es todo el doc*/
+
+/*Selectores*/
+    * {
+        /*selector universal se ocupa mucho para el margin y el padding*/
+    }
+    h2 {
+        /* Asi se usa para cambiar a las etiquetas de html*/
+        font-size: 10px;/*tamaño de fuente*/
+    }
+        /*si quiero cambiar a varios solo tengo que separarlos con coma: h1, h2, h3*/
+
+/*Selectores desendientes*/
+    /*Sirven para apuntar a elementos que esten dentros de otros, no a todos los que aparecen en la web*/
+    p a { 
+        /*a que este dentro de un parrafo por ej, agregando la p hacemos referencia a que busque a todos los elementos que estan dentro de un parrafo*/  
+    }
+
+/*Selectores de clase*/
+    /*Poniendole a los elementos una class, con un nombre, luego eso nos sirve para con css cambiar su vista a todos los elementos por igual*/
+        .yellow {
+            /*todos los que tengan esta clase, cambiaran*/
+        }
+        /*Tambien tenemos el id, pero este solo se puede usar una ves por elemento, los id ya ni se usan*/
+        #yellow {
+
+        }
+        [RANCIO="SII"]{
+            /*esto es para seleccionar por atributos*/
+        }
+/*LOS SELECTORES SE PUEDEN COMBINAR*/
+    p .yellow{
+
+    }
+
+/*PSEUDOCLASES. Sirven para que cambien las formas o colores de los objetos dependiendo una accion*/
+    p:hover {
+        color: red;
+    }
+
+
+    

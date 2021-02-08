@@ -1,0 +1,37 @@
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif; /*tipo de letra*/
+    line-height: 1; /*En este caso este sirve para ver el tamaño del h2(osea, del contenedor) entonces si ponemos uno, el h2 queda del tamaño de ancho de la letra, si ponemos 2, va de la mitad de la letra, 1 para arriba, y 1 para abajo. quedando un h2 con espacio el doble de grande que lo que hay escrito*/
+    font-weight: 400; /*grosor de la letra*/
+    margin: auto; /*centra automaticamente*/
+}
+/*PARA BUSCAR TIPOGRAFIA PUEDO IR A GOOGLE:FONTS
+    El link se pega en el html en el head, y luego se implementa con el font en el css*/
+ 
+
+
+/*NORMALIZE*/
+    /*Es un archivo, que sirve para sacar el padding y demas cosas que trae por defecto los navegadores*/
+    /*Se agrega en el html, como un link*/
+    /*entro del normalize.css es importante cambiar las imagenes al 100% para los moviles(con un max-width). Tambien es importante agregar esto: 
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    */
+
+/* Para poner margin o padding personalizado por lado es asi: 
+    margin: 20px 10px; (20 arriba y abajao, 10 a los costados)*/
+
+h2{
+    border-radius: 20em;/*redondeo de los borders*/
+    text-align: center; /*donde va a estar el texto dependiendo su contendedor*/
+    border: 4px solid blue; /* hay banda de tipos de bordes*/
+    box-shadow: 2px 4px 15px 0 #000000; /*El primero es el eje x, el otro el eje y, el otro tamaño del desenfoque, cuanto borde va a tener(generalmente 0) y luego el color*/
+    text-shadow: 2px 4px 15px #000000; 
+}
+
+/*BOX MODEL*/
+    /*Se basa en las 4 caracteristicas de content(este se refiere al line-height), padding, border, margin
+    Padding es la distancia entre el content y el border. Por fuera del border esta el margin*/
+

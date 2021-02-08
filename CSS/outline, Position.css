@@ -1,0 +1,22 @@
+/*Para ahorrar codigo, si 2 objetos tienen mismas propiedades, se le puede poner:*/
+.caja1, .caja2 {
+    width: 200px;
+    height: 200px;
+    outline: 5px solid red;
+}
+/*outline es un selector para poner bordes sin que mueva los otros objetos, los tapa.*/
+
+/*POSITION
+    Cuando posicionamos un elemento, adquiere 4 nuevas propiedades: top,left,right, bottom, z index*/
+    /*Relative: es el de movimiento normal*/
+    /*z index, sirve para ordenar en el eje z los objetos
+        Si tengo un contenedor y su hijo, la unica forma para que el contenedor este por encima del hijo es poniendo un zindex al hijo de -1, y al contenedor nada.*/
+
+    /*Absolute: igual al relative pero con 3 diferencias: se pueden solapar elementos porque el absolute no deja el espacio reservado del elemento. El ancho se ajusta al contenido, por mas que sea un bloque. Para acomodar el elemento, toma como referencia el viewport, si quiero que tome algun contenedor, este tiene que estar posicionado(con relative por ej)
+    
+    *****SI QUIERO CENTRAR UN ELEMENTO DENTRO DE UN CONTENEDOR:*******
+    Tengo que ponerle todas las propiedades a 0(top,left,right,bottom) y un margin auto. */
+
+    /*Fixed: Igual que absolute pero queda fija en un lugar
+    Como evito que me tape el texto? Por eje, que el menu no me tape el contenido. Se hace esto: 
+    Al body le damamos un padding top aproximado al tamaño de la caja del menu(en positivo), y al menu le damos un margin negativo, del mismo tamaño que el padding del body*/

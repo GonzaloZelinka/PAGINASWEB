@@ -1,0 +1,59 @@
+<!--Como me puedo encontrar a las etiquetas?-->
+<etiqueta>Contenido</etiqueta>
+<!--o con atributos: -->
+<etiqueta atributos="valor">Contenido</etiqueta>
+<!--etiquetas importantes: -->
+<html>
+
+<head>
+    <!--Lo que vaya aca no se ve en la pagina, es el encabezado-->
+</head>
+
+<body>
+    <!--Aca si se ve, es el cuerpo de la pagina-->
+    <br />
+    <!--sirve para salto de pagina-->
+</body>
+
+</html>
+
+
+<!--Etiquetas de texto-->
+<h1>Titulo</h1> <!-- Solo se puede usar 1 por pagina-->
+<!-- h2 y demas si se pueden ocupar-->
+<p>
+    Aca va el parrafo o texto
+</p>
+
+<h2>Subtitulo</h2>
+<p>
+    Aca <b>va el parrafo o texto 2</b>
+    <!--negritas-->
+    <hr /> <!-- Agrega una linea separadora-->
+    Aca <strong>va el parrafo o texto 2</strong> <!--Funcionan igual, pero el strong nos da enfasis para el navegador-->
+    Aca <span>va el parrafo o texto 2</span> <!--Esto no cambia nada, pero sirve para poner negritas luego con css, asi no afecta al enfasis y no se abusa de este-->
+    <i>Aca va el parrafo o texto</i> <!-- Es para que salga acostadita la letra-->
+    <blockquote> Citas de texto </blockquote>
+    <cite>AUtor de la cita</cite>
+    <div> Sirve para dividir texto, se usa para las imagenes</div>
+    
+</p>
+<!--Sirve como codigo semantico, para google-->
+<header>
+    aca generalmente va un logotipo y un menu
+    <nav> 
+        aca sirve para decirle a google que hay un menu de navegacion
+    </nav>
+</header>
+<section class="wrapper"><!-- Wrapper se le conoce como contenedor--> 
+    Aca se pone todo el contenido de la pagina
+    <section class="main">
+        se pone el contenido principal
+        <article> 
+            contenido importante para el lector
+        </article> 
+    </section>
+    <aside>
+        Aca se pone contenido que no es importante para el buscador, pero si para el lector quizas
+    </aside>
+</section>
