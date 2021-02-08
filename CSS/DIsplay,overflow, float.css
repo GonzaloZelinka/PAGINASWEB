@@ -1,0 +1,18 @@
+/*Display cambia el comportamiento de las cajas. Propiedades mas importantes: 
+    Block: Ya lo conocemos, el mas comun. En bloque. Ocupan toda la pantalla a lo ancho.
+    Inline: Tambien conocido, es en linea. Se ajustan al contenido. Se ocupa generalmente para texto. 
+
+    Inline-Block: Se le puede dar un ancho y un alto. Peor se comporta como un bloque.
+    ****LAS TABLAS YA CASI NI SE OCUPAN****
+    Table: Para las tablas.
+    Inline-Table: Tablas pero se comporten como en linea. 
+    List-Item: Sirven para listear items. 
+    Table-Cell: Es como una celda de exel por ej.  
+    Table-Row: Es como si fuera una fila de excel.
+    Table-Column: Como si fuera una columna de excel. 
+    
+    Flex: Se comporta como un bloque, lo que cambia son los hijos de estas cajas, esos ya no son iguales. 
+    Grid: Se comporta como un bloque, lo que cambia son los hijos de estas cajas, esos ya no son iguales. 
+     
+    Inline-Flex: 
+    Inline-Gird: 
