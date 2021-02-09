@@ -21,9 +21,12 @@
 
 /*OBJET FIT: 
     Sirve para manejar las img. 
-    Contein: 
-    Cover: 
-    None: 
-    Scale-Down: 
+    Contein: mantiene las dimensiones reales de la imagen, por mas q cambiemos la caja, las resoluciones cambian. 
+    Cover: se ajusta al contenedor, y recorta los bordes que sobran. 
+    None: queda fija, no cambia nada, agranda la imagen a la resolucion que tiene que ser.
+    Scale-Down: sirve para imagenes grandes, para que se vea bien la imagen. Agarra contein o none dependiendo cual tiene la resulcion mas baja en cada caso. */
+
+/*OBJET POSITION:
+    Sirve con cover, para ver que lado se muestra mas de la img, left, right, bottom, top. Tambien se pueden usar medidas tipo 1em por ej, 
     
 
