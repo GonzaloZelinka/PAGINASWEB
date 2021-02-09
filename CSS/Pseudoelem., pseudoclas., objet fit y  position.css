@@ -11,4 +11,12 @@
     before: lo mismo que el after, pero al reves.*/
 
 /*PSEUDOCLASES: 
+    hover: es para poner efectos cuando el mouse este encima del elemento 
+    link: sirve para que cuando se visite un link, cambie a color violeta. Y tambien para cambiar los efectos de link antes de visitarlo.
+    visited: sirve para cambiar los efectos de un link que ya se visito (osea cuando aparece violeta y no azul)
+    active: sirve para cuando dejas apreta un boton, cambien los estilos. 
+    focus: sirve mas para los inputs, cuando lo enfocamos para escribir, cambian los estilos. 
+    lang: es una funcion que permite modificar el estilo dependiendo los lenguajes que pusimos en nuestro HTML( tambien con lang)se pone b:lang(es). 
+    ***CASI NI SE USA LANG***
     
+
