@@ -15,4 +15,9 @@
     Grid: Se comporta como un bloque, lo que cambia son los hijos de estas cajas, esos ya no son iguales. 
      
     Inline-Flex: 
-    Inline-Gird: 
+    Inline-Gird: */
+
+
+/*Overflow: 
+    Sirve para evitar que por ejemplo un texto no salga de un cuadrado, o por ejemplo que si el texto sale de la pantalla, que hacemos con lo que sobra, no se ve? 
+    el overflow en auto detecta que si el contenido sobrepase, este sirve para poder scrollear en el cuadrado. 
