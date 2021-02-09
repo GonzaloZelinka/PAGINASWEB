@@ -20,4 +20,10 @@
 
 /*Overflow: 
     Sirve para evitar que por ejemplo un texto no salga de un cuadrado, o por ejemplo que si el texto sale de la pantalla, que hacemos con lo que sobra, no se ve? 
-    el overflow en auto detecta que si el contenido sobrepase, este sirve para poder scrollear en el cuadrado. 
+    el overflow en auto detecta que si el contenido sobrepase, este sirve para poder scrollear en el cuadrado. En scroll te pone el scroll, tambien se puede poner separadamente tanto en x como en y. Con hidden se oculta. 
+    En hidden, me recorta lo que sobre del cuadrado. */
+
+/*Float: 
+    Sirve para hacer columnas de texto y evitar problemas de altura. se puede poner, float, right, left.
+    ****NO SE USA MUCHO****
+    

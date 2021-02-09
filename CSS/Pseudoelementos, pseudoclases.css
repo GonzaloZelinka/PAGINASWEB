@@ -1,0 +1,14 @@
+/*PSEUDOELEMENTO: 
+    ***FORMAN PARTE DEL DOM(SE PUEDE COPIAR Y PEGAR)***
+    first line: solo funciona en elementos de bloque. Sirve para cambiar la primera linea de un bloque, haciendo que sea responsive la pagina(adaptable). Siempre la 1ra solo cambiara. 
+    first letter: lo mismo q el anterior pero la 1er letra. 
+    placeholder: en HTML es el que permite que un input se le ponga texto predefinido pero que aparece en gris, osea que cuando escribimos se va. 
+    En CSS se ocupa para cambiar el estilo de este place holder.
+    selection: sirve para cambiar las propiedades del sombreado de seleccion del click. 
+
+    ***NO FORMAN PARTE DEL DOM(todos los q ocupen la etiqueta content)***
+    after: Estos son HIJOS del elemento al que le estamos aplicando las modificaciones de este pseudoelemento.Este sirve para poner algo LUEGO de un elemento, este algo no puede copiarse ni sombrearse.  
+    before: lo mismo que el after, pero al reves.*/
+
+/*PSEUDOCLASES: 
+    
