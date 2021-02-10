@@ -1,0 +1,24 @@
+/*CURSOR: 
+    sirve para cambiar el estilo dle cursos cuandoe este sobre algun elemento. 
+    LISTA DE CURSORES: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_cursor */
+
+/*COLORIZACION: 
+    En programacion los colores principales son verde, rojo y azul. 
+    RGB: se trabaja con rgb() y se pone de 0 hasta 255 para cada color, siendo la cantidad de este que iria en la "mezcla". negro es todo cero rgb(0,0,0) blanco todo lleno rgb(255,255,255) y los grises misma cantidad de cada uno. rgb(100,100,100). Para mezclar hay que ir jugando. 
+    RGBA: es igual a rgb pero cambia la opacidad, quedaria: rgba(255,255,255, 0.5) el cuarto parametro es la opacidad. 
+    HEXADECIMAL: se pueden poner 3, 4, 6, 8 caracteres siendo f el mas intenso de todso( como si fuera el 255). con 3 caracteres: el primero es rojo, el 2do es verde y el tercero es azul. con 4 es igual pero el 4to es la opacidad. Con 6 es: los 2 primeros son rojos, los siguientes 2 verde y los ultimos 2 azul. Con 8 es lo mismo nada mas que los ultimos 2 son la opacidad. 
+    */
+
+/*RESPONSIVE DESING: 
+    ***LO VEMOS DSPS DE FLEX****/
+
+
+
+/*MOBILE FIRST: 
+    muy importante, google recomienda mejor a las paginas que tienen esto. 
+    Primero para trabajar con responsive y con mobile, hay que poner en el html en el head esta etiqueta: 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    Para que al empezar a trabajar en css con resolcuiones, se efectuen los cambios para celulares. 
+    PARA LOS ICONOS ESTA PAGINA: https://fontawesome.com/
+    Si tengo que hacerlo, conviene ir al tuto de nuevo. 
+    
