@@ -1,0 +1,9 @@
+/*FLEXBOX 
+    DISPLAY FLEX
+    Es muy util para evitar problemas de alturas cuando queremos poner texto en columnas. Se acomodan en base a su contenido y a su contenedor.
+    Es importante recalcar que la pantalla de la pagina se basa en: un main axis(horizontal), y un cross axis(vertical) 
+    Tambien hay flujos, el main axis va de derecha a izquierda, siendo en la derecha main start, y en la izquierda, main end. 
+    En el cross axis va de arriba a abajo, siendo arriba cross start, y abajo cross end. 
+    PROPIEDADES IMPORTANTES QUE AFECTAN A LOS FLEX ITEMS PERO VAN EN EL CONTEINER: 
+    SI me interesa cambiar por ejemplo, cajas de horizontal a vertical, solamente tendria que usar la propiedad de flex direction: el cual podemos poner en row(valor por defecto), column( en ves de filas son columnas)
+    Ahora, si yo achico el buscador, pero no quiero que me achique las cajas con informacion, si no que por ejemplo, si estan en lineas, y yo al achicar la caja no se podria mostrar, entonces que haya un salto de pagina y que me muestr en una nueva linea. 
