@@ -1,0 +1,55 @@
+/*GRID: 
+    es una forma de layout que se trabaja en "grillas". 
+    GRID CONTEINER: es el contenedor completo de grid. Es como un flex conteiner. (se comporta como bloque, pero cambia los items de adentro). 
+
+    GRID ITEM: todos los elementos que estan dentro del cointener se convierten en grid items.
+
+    GRID CELL: son las celdas de la grilla del contenedor. Ya que no necesariamente cada celda del conteiner tiene que ser un item, pueden estar vacias por ejemplo, y la celda sigue estando. 
+
+    GRID TRACKS: tenemos 2 tipos: 
+    Column: son las columnas del conteiner. 
+    Row: son las filas del contenier. 
+
+    GRID AREA: son areas que se seleccionan del conteiner. Un track por ejemplo puede ser un area. Ya que nosotros la definimos. Las areas tienen que ser consecutivas tanto vertical y horizontalmente.  
+
+    GRID LINE: tenemos 2 tipos: 
+    Column line: son las lineas que definen a las columnas.  
+    Row Line: son las lineas que definene a las filas. 
+    Dentro de estas lineas tambien se cuentan las que son del conteiner, osea las que diferencian el GRID conteiner de todo lo demas.  
+
+
+PROPIEDADES DE GRID: 
+
+    ***PARA SELECCIONAR ELEMENTOS DEL GRID:***
+    .grid-item:first-child ( el primero) 
+    .grid-item:nth-child(2) (aca elegimos el que queremos)
+
+    GRID TEMPLATE ROWS/COLUMNS: sirve para el grid conteiner. Asi creamos las cantidad de filas o columnas. se poner asi:  
+    grid-template-rows/columns: 120px 120px 120px (La cantidad de columnas que se tomen va a ser dependiendo las dimensiones que hagamos. 
+
+    AUTO Y FR: son medidas que se ocupan para las grillas por ejemplo, FR lo que hace es darle todo lo que sobre a la columna o fila elegida. Si se pone a varias, se divide entre todas.
+
+    GRID ROW/COLUMN GAP: esto separa las grillas entre si la medida que le pongamos. Esto no afecta a los bordes del contenedor. 
+    
+    GRID ROW/COLUMN STAR: (grid items) 
+
+    GRID ROW/COLUMN END: (grid items)
+
+    Estas se pueden abreviar con: GRID ROW, GRID COLUMN.
+    
+    Estas propiedades sirven para elegir el tamaño de cada columna o fila. Como una onda excel. 
+    grid-column: 1/3 
+    Haciendo eso, lo que hago es cambiar el tamaño de la/s celdas que seleccione. Ahi estyo diciendo que va desde la linea 1(borde del conteiner) hasta la linea divisora 3. 
+    Esto al hacerlo lo que pasa es que se "mueven" las demas celdas la cantidad de espacio que le asignemos a la columna/fila o celda que se quiere cambiar. 
+
+    grid-column: 1/ span 3
+    ***el span sirve para decirle: empeza en la linea 1, y toma 3 columnas.***
+    
+    
+    REPEAT: sirve para crear columnas. Es una funcion. 
+    Va: repeat(3,150px) 
+    ahi va a hacer 3 columnas de 150px. Si pongo mas medidas, osea por ejemplo, 100px, 150px, 1fr, y lo ponemos en el repeat, va a repetir TODAS esas medidas la cantidad de veces que le indiquemos. (en el ejemplo serian 3)
+
+    
+
+

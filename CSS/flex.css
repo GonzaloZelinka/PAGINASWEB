@@ -1,0 +1,48 @@
+/*FLEXBOX 
+    DISPLAY FLEX
+        Es muy util para evitar problemas de alturas cuando queremos poner texto en columnas. Se acomodan en base a su contenido y a su contenedor.
+        Es importante recalcar que la pantalla de la pagina se basa en: un main axis(horizontal), y un cross axis(vertical) 
+        Tambien hay flujos, el main axis va de izquierda a derecha, siendo en la izquierda main start, y en la derecha, main end. 
+        En el cross axis va de arriba a abajo, siendo arriba cross start, y abajo cross end.
+    
+    PROPIEDADES IMPORTANTES QUE AFECTAN A LOS FLEX ITEMS PERO VAN EN EL CONTEINER: 
+        SI me interesa cambiar por ejemplo, cajas de horizontal a vertical, solamente tendria que usar la propiedad de flex direction: el cual podemos poner en row(valor por defecto), column( en ves de filas son columnas), row-reverse( esto hace que el main axis y el cross axis cambie y funciona    como un espejo, invierte sus direcciones)
+    
+    FLEX WRAP: esto va en el contenedor. 
+        Ahora, si yo achico el buscador, pero no quiero que me achique las cajas con informacion, si no por ejemplo, si estan en lineas, y yo al achicar la caja no se podria mostrar, entonces que haya un salto de pagina y que me muestre en una nueva linea. Lo que tengo que hacer es: 
+        usar la propiedad flex wrap: wrap
+        Tambien existe lo mismo pero que la caja que no quepa va hacia arriba, con wrap-reverse
+
+        Esto se puede poner en 1 sola linea de codigo, con flex flow. Seria: flex-flow: column wrap 
+
+ALINEACION EN FLEX: 
+    JUSTIFY_CONTENT: esta propiedad se usa en el contenedor no en el contenido. (alineacion horiz)
+        center: centra todo el contenido que esta dentro del contenedor. 
+        space-around: da un espaciado entre cada item, dejando la mayor cantidad de espacio entre cada caja, mientras esta separacion sea igual para todas.Excepto el margen izq y el der. 
+        space-between: por defecto es como que le da un margen automatico a todos los items. 
+        space-evenly: es como un around pero haciendo que los margenes izq y der tambien sean iguales. 
+    ALING-ITEMS: contenedor( alineacion vertical)
+        flex-start: es como si fuera por defecto pero en realidad lo que hace es no estirar las cajas a lo largo de todo el cross axis, que si lo hace el stretch. 
+        stretch: por defecto
+        center: centra los items de un contenedor verticalmente.
+        flex-center: 
+        flex-end: pone todo al final. 
+        ***ALING-CONTENT: SE OCUPA PARA EVITAR QUE EXISTAN ESPACIADOS AL IR GENERANDOSE NUEVAS LINEAS, aling-content: flex-start***
+        baseline: sirve para cuando tengo un wrap reverse y quiero que las cajas vayan poniendose una arriba de la otra cuando la pantalla se vaya achicando ( es cuando quiero tener un flex end, pero que las cajas se muestren hacia arriba cuando se achica la pantalla). 
+
+
+    PROPIEDADES DE LOS ITEMS: 
+        ALING_ SELF: sirve para tirar una item hacia abajo (porque esta propiedad tiene su alineacion en el cross axis) 
+        esta propiedad tiene todas las mismas que el aling items. 
+        ***EL MARGIN FUNCIONA DIFERENTE CON LOS FLEX ITEMS: si yo le pongo un margin-left: auto, va a hacer todo lo contrario y va ir a la derecha, no a la izquierda. Lo mismo con el margin-top.***
+        FLEX GROW: si pongo flex-grow: 1, lo que hace es dividir el espacio que sobra en la linea para cada item. osea, cada item va a cambiar su width. si pongo un 2, el espacio que sobra se va a divir de tal manera, que al item que le puse 2, tenga 2 partes, y los demas una. Y asi sigue funcionando con 3, 4, 5, etc
+        FLEX-BASIS: es como un width pero para items flex. La diferencia nace con otra propiedad: 
+        FLEX-SHRINK: esta prop decide que espacio va a ocupar cada item. con un flex shrink de 2, lo que hacemos es que el item ceda mas espacio que los demas al achicarse la pagina(el doble de espacio da). Y asi sucecivamente cn 3, 4, 5, etc. Si pongo un 0.5, va a ceder la mitad de espacio que los otros items. 
+
+        FLEX: agrupa todas las anteriores en una, para no escribir todas.
+
+        ORDER: funciona como un z index. Pero en el main axis(osea funciona tanto para x como para y) Dependiendo como apunta el main axis, el "mayor" va a ir al final. Funciona con numeros, osea si ponemos order: 4, y son 3 items, el elemento que le pusimos el order ira al final. 
+
+
+    
+
